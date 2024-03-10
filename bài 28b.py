@@ -24,7 +24,6 @@ else:
         List_fake=[]
         for j in range(N):
             List_fake.append(List_output[j][i])
-            j=j+1
         List_output_real.append(List_fake)
 #output
     for i in range(Max_index):
